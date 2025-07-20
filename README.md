@@ -1,4 +1,4 @@
-# 😴 Anti-Sleep Alarm System for Drivers
+# Anti-Sleep Alarm System for Drivers
 
 A real-time driver drowsiness detection project using Python, OpenCV, Dlib, Firebase, and gTTS.  
 It monitors the driver's eyes using a webcam and gives audio alerts + cloud updates if the driver appears sleepy.
@@ -15,7 +15,7 @@ It monitors the driver's eyes using a webcam and gives audio alerts + cloud upda
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 - Python  
 - OpenCV  
@@ -27,7 +27,7 @@ It monitors the driver's eyes using a webcam and gives audio alerts + cloud upda
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Detects face & eyes using Dlib
 2. Calculates EAR (Eye Aspect Ratio)
@@ -38,18 +38,18 @@ It monitors the driver's eyes using a webcam and gives audio alerts + cloud upda
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 Install the following Python packages:
 ```bash
 pip install opencv-python dlib scipy gtts pyrebase4
-### 📦 Download Dlib Model File
+### Download Dlib Model File
 
 This project uses Dlib's 68-point face landmark detector model.
 
-🔗 Download here:  
+ Download here:  
 [shape_predictor_68_face_landmarks.dat (official link)](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
 
-🪜 After downloading:
+ After downloading:
 1. Extract the `.bz2` file using WinRAR/7-Zip
 2. Place `shape_predictor_68_face_landmarks.dat` in the same folder as your Python code
