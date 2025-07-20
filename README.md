@@ -43,6 +43,7 @@ It monitors the driver's eyes using a webcam and gives audio alerts + cloud upda
 Install the following Python packages:
 ```bash
 pip install opencv-python dlib scipy gtts pyrebase4
+```
 ### Download Dlib Model File
 
 This project uses Dlib's 68-point face landmark detector model.
